@@ -1,0 +1,9 @@
+创建ssh key
+ssh-keygen -t rsa -C "zuming.jiang@thscom.co.jp"
+
+设置username 和email
+git config --global user.name "someikou"
+git config --global user.email "zuming.jiang@thscom.co.jp"
+
+添加运程地址
+git remote add origin https://github.com/someikou/hello-world.git
